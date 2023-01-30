@@ -3,22 +3,22 @@ from sample_config import Config
 
 class Development(Config):
     # get this values from the my.telegram.org
-    APP_ID = 10248430
-    API_HASH = "42396a6ff14a569b9d59931643897d0d"
+    APP_ID = 6296490
+    API_HASH = "24385183c93a98ae4155c25d9f5f64b2"
     # the name to display in your alive message
-    ALIVE_NAME = "rishabh"
+    ALIVE_NAME = "⏤͟͞ ＦＬムＳＨ三[🇮🇳]"
     # create any PostgreSQL database (i recommend to use elephantsql) and paste that link here
     DB_URI = "postgres://sigycxuy:EdqN8TSb1Bpadm8pCxieIVOGUOLmpMyp@satao.db.elephantsql.com/sigycxuy"
     # After cloning the repo and installing requirements do python3 stringsetup.py an fill that value with this
-    STRING_SESSION = "1BVtsOLQBu5YI-PmkTLGbc596mFUMtO5aGxkOGBRyV_eV-fF2__pySnB-nc-BXx4_EZeamPJNw-H9MRpJXA-mV9PF9YzLKcdjJUCjSlwxouBAFcSU0J0MQDzhVg7y2KVUEKXTE0nZZaPmNF66EUd0Ngm8uVBqKQy94TYa5b770GXEp5331Ao34Ik1EUCdez5K6JtyLNsKZfJ9cKEEnJp8QcKrlmBKFAONlc8rVDQpQlAG-1amR2L9x_u_fwYbGyen5Dlr35G2CwzpYb-Xb5HnZ-UM7Xjkc-pUC5PnNFFk2mRRVEakadVtgHNkcxi0Eeb8Y-Uk4DM9mvIHGuKBE8FKDe7xfg7F70M="
+    STRING_SESSION = "1BJWap1wBu7m8vnEASysJcTNn4xYEcraND4bjwsIcVYFC0MgHRZV8DNrzdfZf2HVnuaph10GpH4jCR1GSoU26t_kKPVl5-PujlUnQCd5sJZjAs-FokY0XVmI-Wg0OL9OUfVZujZoavXFfZY8BncbL5CkddtRbdDjvuPrlIzvJ--B7xSW1nGoEZ34b_cC9ZAXT_IuZkmzKlVMHfft-TO-AhupNr-Az7tRBDUVtBC--a4aObbWV02wnBdPkgi2Ghx9Z7YF7D8QfNSKiRdjWaHMNXD6TWzipesG7ER9rbaBsM8KUJWCyo7LSkvIMh4J7iZLIZ06hHkEKQEC0pfCxF_JaPLaJLc1BJmc="
     # create a new bot in @botfather and fill the following vales with bottoken
-    TG_BOT_TOKEN = "5963011872:AAHYspEKpJ2XKuaPj9MXZ439yaWS5Lr8o8g"
+    TG_BOT_TOKEN = "6080251945:AAE4mvykix0gkN7MbrhPeIm_kxVi7t5ZSSU"
     # create a private group and a rose bot to it and type /id and paste that id here (replace that -100 with that group id)
-    PRIVATE_GROUP_BOT_API_ID = -1001541862159
+    PRIVATE_GROUP_BOT_API_ID = -1001802028874
     # command handler
-    COMMAND_HAND_LER = "."
+    COMMAND_HAND_LER = "!"
     VCMODE = "True"
-    VC_SESSION = "1AZWarzoBu6Et38gWQWz4nWvZ1_4bMYUxUmg56kWVErTXnSu8z6bZhs4V1pn__A_kytRD_MPUGihHTIAEp20LUvXBXeviAiaCg3C1dnfnlCZ1N4R98kBm5F-JaW6O-b89qfxbhDGE1XpN3e1amOBkq5ks3-iblqTBUd536G01goRUWL-3TcIyak5aiw0XMtK9n5clgb7IMZ0w4QDVZtzc9RzBRPaKdOjw9Hkd4ecWoZXVromjw9InlBvopEtEzE4n6m-D6Z0yzCDSeKulH5rvld7kJBeXmg8q0O6pqjrlRK8MN0WWAyCw2G6llV3r_ppb1UWcxIZ8s60tmHlVl0qWvB5qK30_Qco=" #note don't use maim account to vc player
+    VC_SESSION = "1AZWarzkBuyrkm1qvmbJfoVoYRFGdqcS1l4dlO_0Z5XRiOma_euM8mUolu1taEI5ZS3NiULljH0kOJm14ddjk8rwZ4kLW7_kcK55AH8pTbDZN_MEMfktcN4TXaSW-uwZSgAlubxSxIrYauNYH6Ue0NGgN-ojqQ5XOwCNqQ6_iovPGx16h30FwrQNht5pVt6OAjHUhzkv01qDA73uw6FNEiOEvzHBpw1rLOV-8kxowWYBzSzgW2F5RZNjCcb4jl6c77CdFu0BxCuic9z75PWMzOv6i96Khdf7YA08iwBEZkpBOm9-7I2G9M-YurT3BpI43y9AHpteiLlOpgPVyJgYicELHghkSe2c=" #note don't use maim account to vc player
     # command hanler for sudo
     SUDO_COMMAND_HAND_LER = "."
     # External plugins repo
